@@ -2,6 +2,6 @@
 <body>
 	<h1>Spring 3 MVC REST web service</h1>
 	
-	<h3>Task Name : ${task}</h3>	
+	<h3>Query Name : ${task}</h3>	
 </body>
 </html>

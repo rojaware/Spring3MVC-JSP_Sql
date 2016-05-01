@@ -8,20 +8,21 @@
 </head>
 <body>
 
-<h2>Submitted Student Information</h2>
+<h2>Submitted Query Command</h2>
    <table>
+   <tr>
+        <td>ID</td>
+        <td>${id}</td>
+    </tr>
     <tr>
         <td>Name</td>
         <td>${name}</td>
     </tr>
     <tr>
-        <td>Age</td>
-        <td>${age}</td>
+        <td>SQL</td>
+        <td>${sql}</td>
     </tr>
-    <tr>
-        <td>ID</td>
-        <td>${id}</td>
-    </tr>
+    
 </table>  
 </body>
 </html>

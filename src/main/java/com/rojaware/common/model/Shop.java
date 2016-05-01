@@ -1,4 +1,4 @@
-package com.mkyong.common.model;
+package com.rojaware.common.model;
 
 public class Shop {
 

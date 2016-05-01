@@ -1,4 +1,4 @@
-package com.mkyong.common.controller;
+package com.rojaware.common.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -14,15 +14,15 @@ public class TaskController {
 	public String getMovie(@PathVariable String name, ModelMap model) {
 
 		model.addAttribute("task", name);
-		return "list";
-
+		return "list";// dispatch list.jsp
+ 
 	}
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String getDefaultMovie(ModelMap model) {
 
 		model.addAttribute("task", "this is default task");
-		return "list";
+		return "list"; // dispatch list.jsp
 
 	}
 

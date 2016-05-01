@@ -1,8 +1,11 @@
-# Spring3MVC-JSP_Sql
+# QueryCat :: Spring3MVC-JSP-Dao-SQL Server
 Spring3 MVC + JDBC (MS SQL Server) + JSP
 
-# Installation
+# Database Installation
 - Require MS SQL Express local installation
+- Run company-ddl and dll.sql scripts
+# Installation
+- 
 - Download JDBC Driver(sqljdbc4.jar) for SQL Server (http://go.microsoft.com/fwlink/?LinkId=245496)
 - Place the sqljdbc4.jar file to your [tomcat installation]/lib directory
 - Clone this source project into your workspace and import it to your Eclipse as Existing Maven Project
@@ -12,5 +15,5 @@ Spring3 MVC + JDBC (MS SQL Server) + JSP
 - Run the ConnectionURL.java to test your JDBC connection to SQL Server
 
 # Test
-- http://localhost:8080/SpringMVC-JSP_Sql/rest/student/ddd
+- http://localhost:8080/QueryCat/rest/query/
 - 

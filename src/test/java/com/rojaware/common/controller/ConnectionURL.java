@@ -1,5 +1,5 @@
-package com.mkyong.common;
 
+package com.rojaware.common.controller;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -10,8 +10,8 @@ public class ConnectionURL
 	   public static void main(String[] args) {
 
 		      // Create a variable for the connection string.
-		      String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
-		         "databaseName=company;user=sa;password=river123";
+		      String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=company"
+		      		+ ";user=sa;password=river123";
 
 		      // Declare the JDBC objects.
 		      Connection con = null;

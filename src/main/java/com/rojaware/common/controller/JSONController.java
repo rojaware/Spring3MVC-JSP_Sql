@@ -1,11 +1,12 @@
-package com.mkyong.common.controller;
+package com.rojaware.common.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-import com.mkyong.common.model.Shop;
+
+import com.rojaware.common.model.Shop;
 
 @Controller
 @RequestMapping("/kfc/brands")
